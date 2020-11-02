@@ -7,7 +7,7 @@ font-family:'Roboto',sans-serif;
 }
 header{
 
-background-image:url('./images/cover.jpg');
+background-image:url('cover.jpg');
 background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
