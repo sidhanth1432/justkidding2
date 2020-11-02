@@ -116,11 +116,11 @@ function displayCart(){
 let cartCost=localStorage.getItem("totalCost");
 let cartItems=localStorage.getItem("productsInCart");
 cartItems=JSON.parse(cartItems);
-let productContainer=document.querySelector(".products");
+let productContainer=document.querySelector(".products-container");
 if(cartItems &&productContainer){
 productContainer.innerHTML='';
 Object.values(cartItems).map(item=>{
-productContainer.innerHTML+='<div class="product"><ion-icon name="clone-circle"></ion-icon><img src="$(item.tag).jpg"><span>$(item.name)</span></div>
+productContainer.innerHTML+=<div class="product"><ion-icon name="clone-circle"></ion-icon><img src="$(item.tag).jpg"><span>$(item.name)</span></div>
 <div class="price">$(item.price)</div>
 <div class ="quantity"><ion-icon class="decrease"name="arrow-dropleft-circle"></ion-icon><span>$(item.inCart)</span>
 <ion-icon class="increase"name="arrow-dropright-circle"></ion-icon>
