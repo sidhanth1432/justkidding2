@@ -24,7 +24,7 @@ right:0;
 bottom:0;
 padding:0;
 margin:0;
-background_color:rgba(10,10,10,0.3);
+background_color:#0A0A0A/*rgba(10,10,10,0.3);*/
 
 }
 nav{
@@ -33,7 +33,7 @@ top:0;
 right:0;
 left:0;
 z-index:2;
-display:flag;
+display:flex;
 flex-wrap:wrap;
 justify-content:space-between;
 padding:50px 60px 0 60px;
@@ -51,7 +51,7 @@ padding-left:5px;
 
 li a{
 padding:5px;
-background-color:#fff;
+background-color:#FFFFFF;/*#fff;*/
 text-decoration:none;
 }
 .cart ion-icon{
@@ -61,8 +61,8 @@ padding-right:5px;
 }
 
 .cart a{
-background-color:royalblue;
-color;#fff;
+background-color:#4169e1;
+color:#FFFFFF;
 cursor:pointer;
 text-decoration:none;
 }
@@ -85,7 +85,7 @@ overflow:hidden;
 .add-cart{
 position:absolute;
 width:100%;
-background-color:darkgrey;
+background-color:#A9A9A9	;
 transition:all 0.3s ease-in-out;
 opacity:0;
 cursor:pointer;
@@ -111,10 +111,10 @@ margin:0 auto;
 margin-top:50px;
 }
 .products-container ion-icon{
-font-size:25px
-color:blue
-margin-left:10px
-margin-right:10px
+font-size:25px;
+color:#0000FF;	
+margin-left:10px;
+margin-right:10px;
 cursor:pointer;
 
 
@@ -127,7 +127,7 @@ width:100%;
 max-width:650px;
 display:flex;
 justify-content:flex-start;
-border-bottom:4px solid lightgrey;
+border-bottom:4px solid #D3D3D3	;
 margin:0 auto;
 }
 
@@ -136,14 +136,14 @@ width:45%
 }
 .price{
 width:15%;
-border-bottom:1px solid lightgrey;
+border-bottom:1px solid #D3D3D3	;
 display:flex;
 align-items:center;
 
 }
 .quantity{
 width:30%;
-border-bottom:1px solid lightgray;
+border-bottom:1px solid #D3D3D3	;
 display:flex;
 align-items:center;
 
@@ -152,7 +152,7 @@ align-items:center;
 .total{
 
 width:10%;
-border-bottom:1px solid lightgrey;
+border-bottom:1px solid #D3D3D3	;
 display:flex;
 align-items:center;
 
@@ -163,7 +163,7 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 padding:10px 0;
-border-bottom:1px solid lightgrey;
+border-bottom:1px solid #D3D3D3	;
 
 }
 
@@ -179,7 +179,7 @@ width:75px;
 display:flex;
 justify-content:flex-end;
 width:100%;
-padding:10 px 0;
+padding:10px 0;
 
 }
 .basketTotalTitle{
