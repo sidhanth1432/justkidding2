@@ -7,7 +7,7 @@ font-family:'Roboto',sans-serif;
 }
 header{
 
-background-image:url();
+background-image:url('./images/cover.jpg');
 background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
@@ -24,7 +24,7 @@ right:0;
 bottom:0;
 padding:0;
 margin:0;
-background_color:#0A0A0A/*rgba(10,10,10,0.3);*/
+background_color:#0A0A0A
 
 }
 nav{
@@ -51,7 +51,7 @@ padding-left:5px;
 
 li a{
 padding:5px;
-background-color:#FFFFFF;/*#fff;*/
+background-color:#FFFFFF;
 text-decoration:none;
 }
 .cart ion-icon{
@@ -66,7 +66,7 @@ color:#FFFFFF;
 cursor:pointer;
 text-decoration:none;
 }
-.container{
+.container,container-products{
 display:flex;
 justify-content:center;
 flex-wrap:wrap;
@@ -82,25 +82,8 @@ position:relative;
 overflow:hidden;
 }
 
-.add-cart{
-position:absolute;
-width:100%;
-background-color:#A9A9A9	;
-transition:all 0.3s ease-in-out;
-opacity:0;
-cursor:pointer;
-text-align:center;
-}
 
-.image:hover .cart1,
-.image:hover .cart2,
-.image:hover .cart3,
-.image:hover .cart4{
-bottom:50px;
-opacity:1;
-padding:10px;
-text-decoration:none;
-}
+
 
 /*cart*/
 
