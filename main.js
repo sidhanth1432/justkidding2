@@ -115,7 +115,7 @@ else{localStorage.setItem("totalCost",product.price);}
 function displayCart(){ 
 let cartCost=localStorage.getItem("totalCost");
 let cartItems=localStorage.getItem("productsInCart");
-cartItem=JSON.parse(cartItem);
+cartItems=JSON.parse(cartItems);
 let productContainer=document.querySelector(".products");
 if(cartItems &&productContainer){
 productContainer.innerHTML='';
